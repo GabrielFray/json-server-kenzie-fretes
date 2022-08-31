@@ -1,120 +1,53 @@
 {
   "users": [
     {
-      "email": "kenzinho@mail.com",
+      "name": "Gabriel Fray",
+      "email": "gabrielfray@email.com",
       "password": "$2a$10$YQiiz0ANVwIgpOjYXPxc0O9H2XeX3m8OoY1xk7OGgxTnOJnsZU7FO",
-      "name": "Kenzinho",
-      "age": 38,
+      "typeUser": "Cliente",
+
       "id": 1
     },
     {
-      "email": "tsunode@kenzie.com.br",
+      "name": "Vinão Carioca",
+      "email": "vinao@gmail.com",
       "password": "$2a$10$QXQVPw7XhD2RA2DUTBgy.ugte2Dlb4LHMd58rl.prAd4axbbJ5LHC",
+      "typeUser": "Motorista",
       "id": 2
     }
   ],
-  "cities": [
+  "usersRegister": [
     {
-      "name": "Belo Horizonte",
-      "state": "Minas Gerais",
+      "name": "Lucas Silva",
+      "email": "lucaosilva@gmail.com",
+      "contact": "(24) 98134-0029",
+      "cnpj": "54.361.553/0001-07",
+      "address": [
+        {
+          "street": "Rua dos bobos",
+          "number": 166,
+          "distric": "Volta redonda",
+          "state": "Rio de Janeiro"
+        }
+      ],
       "userId": 2,
       "id": 1
     },
     {
-      "name": "Campinas",
-      "state": "São Paulo",
-      "userId": 2,
-      "id": 2
-    },
-    {
-      "name": "Campinas",
-      "state": "São Paulo",
-      "temperatura": 18,
-      "userId": 2,
-      "id": 3
-    },
-    {
-      "name": "São Paulo",
-      "state": "São Paulo",
+      "name": "Lucas Silva",
+      "email": "lucaosilva@gmail.com",
+      "contact": "",
+      "cnpj": "54.361.553/0001-07",
+      "address": [
+        {
+          "street": "",
+          "number": 0,
+          "distric": "",
+          "state": ""
+        }
+      ],
       "userId": 2,
       "id": 1
-    },
-    {
-      "name": "São José dos Campos",
-      "state": "São Paulo",
-      "userId": 2,
-      "id": 2
-    },
-    {
-      "name": "Campinas",
-      "state": "São Paulo",
-      "userId": 2,
-      "id": 3
-    },
-    {
-      "name": "Ribeirão Preto",
-      "state": "São Paulo",
-      "userId": 1,
-      "id": 4
-    },
-    {
-      "name": "São Bernardo do Campo",
-      "state": "Minas",
-      "userId": 1,
-      "id": 5
-    },
-    {
-      "name": "Belo Horizonte",
-      "state": "Minas Gerais",
-      "userId": 2,
-      "id": 6
-    },
-    {
-      "name": "rest",
-      "quan": "Minas Gerais",
-      "mesas": 2
-    },
-    {
-      "name": "Maragogi",
-      "state": "Alagoas",
-      "userId": 2,
-      "id": 8
-    },
-    {
-      "name": "Japaratinga",
-      "state": "Alagoas",
-      "userId": 2,
-      "id": 9
-    },
-    {
-      "name": "Guarulhos",
-      "state": "São Paulo",
-      "userId": 2,
-      "id": 10
-    },
-    {
-      "name": "São Pauloo",
-      "state": "São Paulo",
-      "userId": 1,
-      "id": 11
-    },
-    {
-      "name": "São Pauloo",
-      "state": "São Paulo",
-      "userId": 1,
-      "id": 12
-    },
-    {
-      "name": "Salvador",
-      "state": "Bahia",
-      "userId": 2,
-      "id": 13
-    },
-    {
-      "name": "Salvador",
-      "state": "Bahia",
-      "userId": 2,
-      "id": 14
     }
   ]
 }
