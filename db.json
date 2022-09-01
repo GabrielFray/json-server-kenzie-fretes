@@ -13,15 +13,29 @@
       "email": "vinao@gmail.com",
       "password": "$2a$10$QXQVPw7XhD2RA2DUTBgy.ugte2Dlb4LHMd58rl.prAd4axbbJ5LHC",
       "typeUser": "Motorista",
+
+      "description": "Preciso de uma mudança urgente!",
+      "origin": [
+        {
+          "city": "Campinas",
+          "state": "SP"
+        }
+      ],
+      "destination": [
+        {
+          "city": "Resende",
+          "state": "RJ"
+        }
+      ],
+
       "id": 2
     }
   ],
-  "usersRegister": [
+  "register": [
     {
       "name": "Lucas Silva",
       "email": "lucaosilva@gmail.com",
       "contact": "(24) 98134-0029",
-      "cnpj": "54.361.553/0001-07",
       "address": [
         {
           "street": "Rua dos bobos",
@@ -31,14 +45,12 @@
         }
       ],
       "userId": 2,
-      "id": 1,
-      "vehicleImg": ""
+      "id": 1
     },
     {
       "name": "Lucas Silva",
       "email": "lucaosilva@gmail.com",
       "contact": "",
-      "cnpj": "54.361.553/0001-07",
       "address": [
         {
           "street": "",
